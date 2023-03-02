@@ -2,7 +2,7 @@
 #!/usr/bin/python3
 
 #Test case for 
-import inittest
+import unittest
 
 from Program1 import calcSum
 
