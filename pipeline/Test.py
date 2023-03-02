@@ -6,7 +6,7 @@ import unittest
 
 from Program1 import calcSum
 
-class TestSum(unittest.TeestCase):
+class TestSum(unittest.TestCase):
   def test_list_init(self):
     ''' Test case to add 2 numbers '''
     data = [23,32]
