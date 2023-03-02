@@ -13,5 +13,10 @@ class TestSum(unittest.TestCase):
     result = calcSum(data)
     self.assertEqual(result,55)
     
+  def test_case2(self):
+    data=[23,11]
+    result = calcSum(data)
+    self.assertEqual(result,3)
+    
 if __name__ == '__main__':
   unittest.main()
